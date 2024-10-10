@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy</title>
+    <link rel="icon" href="e.ico" type="image/x-icon">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+        }
+        .container h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .container img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .button-group {
+            margin-top: 20px;
+        }
+        .button-group button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+        .button-group .btn-lanjut {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button-group .btn-kembali {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+
+    <script>
+        function goToIndex() {
+            window.location.href = 'index2.html';
+        }
+
+        function goToIndex2() {
+            window.location.href = 'index4.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://media.tenor.com/7q58ridKYRsAAAAi/bubududu-panda.gif" alt="Funny GIF">
+        <h1>Hay MIss Sitta</h1>
+        <p>ini ada video dari XI RPL 1 yah miss... bisa di tonton yah miss jangan skip skip kalau bisa hihi </p>
+        <a href="https://youtu.be/q2iCOijq2dY?si=Y7iSRgNy4D2Ki76C">Silahkan Ditonton Miss Sitta</a>
+        <div class="button-group">
+            <button class="btn-kembali" onclick="goToIndex()">Kembali</button>
+        </div>
+    </div>
+    
+</body>
+</html>
